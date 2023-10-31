@@ -1,0 +1,39 @@
+@keyframes example {
+    0%   {background-color: rgb(94, 161, 243);}
+    25%  {background-color: rgb(55, 202, 228) ;}
+    50%  {background-color: rgb(248, 187, 102);}
+    75%  {background-color: pink;}
+    100% {background-color: plum;}
+  }
+  
+  .banner {
+    width: 1500px;
+    height: 700px;
+    background-color: rgb(94, 161, 243);
+    animation-name: example;
+    animation-duration: 2.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+.main{
+    color: whitesmoke;
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-left:10px;
+}
+.main2{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 12px;
+    margin-left:10px;
+}
+.logo{
+    margin-top: 10px;
+    align-items: center;
+}
+.ball{
+    float: right;
+    margin-right: 15px;
+}
